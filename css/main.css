@@ -17,52 +17,298 @@ main {
   height: 100%;
   background-color: #fff;
   margin: auto;
+  position: relative;
 }
 
 .hero {
   width: 100%;
   height: 100%;
-  background-color: red;
+  display: flex;
 }
 
 .hero_text {
-  width: 50%;
+  width: 60%;
   height: 100%;
-  background-color: blue;
+  padding-top: 190px;
+  padding-left: 100px;
 }
 
 .hero-text-par-one {
   width: 610px;
-  font-family: font-family "Exo 2", sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 52px;
   line-height: 125%;
   color: #363738;
-  padding-top: 190px;
 }
 
 .hero-text-par-two {
   width: 525px;
-  font-family: font-family "PT Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   color: #6B6B6C;
+  margin-top: 40px;
 }
 
 .hero-text-par-three {
-  font-family: font-family "PT Sans", sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   color: #363738;
+  margin-top: 40px;
 }
 
 .hero-line {
   width: 104px;
   height: 0px;
   border: 3px solid #FFCE50;
+  margin-top: 10px;
+}
+
+.hero_img {
+  width: 40%;
+  height: 787px;
+  background-image: url("../img/Rectangle 1.svg");
+  position: relative;
+}
+
+.hero-img {
+  position: absolute;
+  top: 109px;
+  right: 100px;
+}
+
+.git {
+  width: 1240px;
+  height: 341px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  position: absolute;
+  top: 681px;
+  left: 100px;
+}
+
+.git_collection {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.git_collection_item {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.git-text {
+  width: 228px;
+  height: 248px;
+}
+
+.git-collection-item-text {
+  width: 228px;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+  margin-top: 24px;
+}
+
+.git-collection-item-par {
+  width: 225px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-top: 16px;
+}
+
+.checbox {
+  width: 1108px;
+  margin: 435px auto 0px;
+}
+
+.checbox_paragraph_one {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+
+.checbox_paragraph_two {
+  width: 667px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-top: 32px;
+  margin-bottom: 40px;
+}
+
+.checbox_had {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checbox_collection_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 687px;
+  height: 176px;
+  margin-bottom: 30px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+}
+
+.checbox_input {
+  width: 24px;
+  height: 24px;
+  background: #FFFFFF;
+  border: 1px solid #CBCBCD;
+  padding-top: 48px;
+  margin-left: 40px;
+}
+
+.checbox_label {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #363738;
+  margin-left: 32px;
+  margin-top: -50px;
+}
+
+.checbox_text {
+  width: 466px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-left: 90px;
+  margin-top: 24px;
+}
+
+.checbox_list {
+  width: 281px;
+  height: 132px;
+}
+
+.checbox_list_par-one {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  color: #363738;
+}
+
+.checbox_list_par_two {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-size: 54px;
+  line-height: 81px;
+}
+
+.checbox_list_par_three {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 81px;
+}
+
+.checbox_list_div {
+  width: 281px;
+  height: 1px;
+  border: 3px solid #FFCE50;
+}
+
+.export {
+  width: 1341px;
+  height: 748px;
+}
+
+.export_collection {
+  width: 60%;
+  margin-left: 164px;
+  display: grid;
+  grid-template-columns: repeat(2, 600px);
+  grid-template-rows: repeat(2, 165px);
+  margin-top: 72px;
+  justify-content: space-between;
+}
+
+.export_item {
+  display: flex;
+}
+
+.export_item_text {
+  margin-left: 40px;
+}
+
+.export-text-one {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  color: #363738;
+}
+
+.export-text-two {
+  width: 291px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
+  margin-top: 16px;
+}
+
+.fakt {
+  width: 1239px;
+  height: 618px;
+  background-color: red;
+  margin-top: 150px;
+}
+
+.fakt_text-one {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+
+.fakt_text-two {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #6B6B6C;
 }/*# sourceMappingURL=main.css.map */
