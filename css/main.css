@@ -460,4 +460,134 @@ main {
   line-height: 150%;
   color: #6B6B6C;
   margin-top: 24px;
+}
+
+.compani {
+  width: 85%;
+  height: 576px;
+  margin-top: 120px;
+  margin-left: 100px;
+}
+
+.compani_text_par {
+  width: 687px;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+
+.compani_collection {
+  width: 100%;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(4, 225px);
+  grid-template-rows: repeat(2, 200px);
+  grid-gap: 50px;
+  align-content: center;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.compani-img-one {
+  margin-left: 74px;
+  margin-bottom: 32px;
+}
+
+.compani-img-two {
+  margin-left: 40px;
+  margin-bottom: 56px;
+}
+
+.compani-img-three {
+  margin-left: 50px;
+  margin-bottom: 32px;
+}
+
+.compani-img-four {
+  margin-left: 70px;
+  margin-bottom: 32px;
+}
+
+.compani-img-five {
+  margin-left: 20px;
+  margin-bottom: 57px;
+  margin-top: 10px;
+}
+
+.compani-img-six {
+  margin-left: 70px;
+  margin-bottom: 32px;
+}
+
+.compani-img-seven {
+  margin-left: 75px;
+  margin-bottom: 30px;
+}
+
+.compani-img-eight {
+  margin-left: 20px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+.compani-item-text-one {
+  width: 184px;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 135%;
+  text-align: center;
+  color: #363738;
+  margin: auto;
+  margin-bottom: 14px;
+}
+
+.compani-item-text-two {
+  width: 225px;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  text-align: center;
+  color: #6B6B6C;
+  margin: auto;
+}
+
+.director {
+  width: 85%;
+  height: 576px;
+  margin-top: 120px;
+  margin-left: 100px;
+  background-color: dodgerblue;
+}
+
+.director_text {
+  width: 687px;
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 125%;
+  color: #363738;
+}
+
+.director_collection {
+  widows: 100%;
+  height: 778px;
+  display: grid;
+  justify-content: space-between;
+  grid-template-columns: repeat(2, 605px);
+  grid-template-rows: repeat(3, 210px);
+  grid-row-gap: 24px;
+}
+
+.director_item {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
 }/*# sourceMappingURL=main.css.map */
